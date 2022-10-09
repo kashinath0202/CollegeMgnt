@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/campus.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.nav0{
+    display: flex;
+    background-color: #2b5ca1;
+    height: 40px;
+    align-items: center;
+    justify-items: left;
+    border: 1px solid rgba(255, 255, 255, 0.641);
+}
+
+.nav0 div a{
+    background-color: #ffd32a;
+    text-decoration: none;
+    margin-left: 650px;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    padding: 5px;
+}
+/* .search_bar{
+    width: 310px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: #070809;
+    padding: 8px;
+    border-radius: 30px;
+    display: flex;
+    position: absolute;
+}
+
+.search_bar img{
+    width: 5px;
+} */
+.nav1 {
+    display: flex;
+    background-color: #2b5ca1cd;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.641);
+    height: 95px;
+}
+
+.logo {
+    margin-left: 280px;
+    margin-top: -40px;
+    position: absolute;
+}
+
+nav img {
+    width: 130px;
+}
+
+table{
+    margin-left: 450px;
+}
+table,
+tr,
+td{
+    border: 1px solid rgba(255, 255, 255, 0.642);
+    color: #fbc531;
+    border-collapse: collapse;
+    background-color: #192a56;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6vh;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+td{
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-links a {
+    color: #fbc531;
+    text-decoration: none;
+}
+
+.nav2{
+    display: flex;
+    background-color: #2b5ca1cd;
+    align-items: center;
+    border: thin solid white;
+    
+}
+.nav-links2 {
+    flex: 1;
+    text-align: center;
+}
+.nav-links2 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+    position: relative;
+    /* border: 0.5px solid white; */
+    
+}
+.nav-links2 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Abyssinica SIL', serif;
+    font-size: large;
+    font-weight: lighter;
+    padding-left: 5px;
+    padding-right: 5px;
+}
