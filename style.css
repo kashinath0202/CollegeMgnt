@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.white{
+    height: 432px;
+}
+.black {
+    height: 25px;
+    background-color: black;
+}
+
+.footer {
+    height: 200px;
+    width: 100vhw;
+    background-color: #00274c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'Roboto',sans-serif; */
+}
+
+.img1 img {
+    margin: 30px 0px 30px 30px;
+    background-repeat: no-repeat;
+    height: 100px;
+    border: 1px solid white;
+}
+
+/* Anchor  */
+
+.anchor1 {
+    margin: 0px;
+    float: unset;
+    width: 320px;
+    margin-left: 10px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.anchor1 ul {
+    list-style: none;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
+}
+
+.anchor1 li {
+    display: inline-block;
+    padding: 0;
+    margin: 0px 10px 0px 0px;
+}
+
+.anchor1 a {
+    text-decoration: none;
+    color: white;
+    margin: 12px 15px 0px 0px;
+    padding: 0px 8px 0px 0px;
+}
+
+.anchor1 span li a {
+    border-right: 1px solid white;
+    margin: 0px 0px 5px 0px;
+
+}
+
+.anchor1 p {
+    color: white;
+    margin: 0px;
+    padding: 0;
+}
+
+/* FontawasomeAnchor  */
+
+.anchor1 .fontawasomeAnchor li {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.anchor1 .fontawasomeAnchor i {
+    color: #ffcb0b;
+
+}
+
+.anchor1 .fontawasomeAnchor a {
+    margin: 10px;
+}
+
+.anchor1 .fontawasomeAnchor ul {
+    margin: 2px 0px 0px 0px;
+}
+
+/* Hover Anchor1 */
+
+.anchor1 a:hover {
+    color: #ffcb0b;
+    text-decoration: dashed;
+}
+
+/* Anchor2  */
+
+.anchor2 {
+    margin-top:18px;
+    box-sizing: inherit;
+    font-size: 13px;
+    width: 150px;
+    height: 147px;
+}
+
+.anchor2 ul {
+    padding: 0;
+}
+
+.anchor2 li {
+    list-style: none;
+    padding: 10px 0px 10px;
+    border-bottom: 1px dotted white;
+}
+
+.anchor2 a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hover Anchor2  */
+
+.anchor2 a:hover {
+    color: #ffcb0b;
+    text-decoration: dotted;
+    width: 150px;
+}
+
+/* Anchor3 */
+
+.anchor3 {
+    margin-top: 18px;
+    margin-left: 10px;
+    box-sizing: inherit;
+    font-size: 13px;
+    width: 175px;
+    height: 147px;
+}
+
+.anchor3 ul {
+    padding: 0;
+}
+
+.anchor3 li {
+    list-style: none;
+    padding: 10px 0px 10px;
+    border-bottom: 1px dotted white;
+}
+
+.anchor3 a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hover Anchor2 */
+
+.anchor2 a:hover {
+    color: #ffcb0b;
+    text-decoration: dotted;
+}
+/* Fontasome */
+.anchor3 .fontawsome i {
+    font-size: 25px;
+    color: #ffcb0b;
+    margin: 5px;
+    padding: 30px 0px 20px;
+}
+
+/* Image2*/
+.img2 {
+    margin: 40px;
+}
